@@ -1,69 +1,97 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<h1>MathNerd92</h1>
-<div class="row">
-    <div class="column">
-        <h3>Welcome to my channel!</h3>
-        <p>
-            My name is MathNerd92, but you can call me Math or Nerd.
-        </p>
-        <p>
-            I play games and stream for fun, this is a hobby of mine that I do when I have free time.
-            Please be patient with me and feel free to drop suggestions.
-        </p>
-        <p>
-            I am trying to stream daily Monday thru Friday starting around 1900 EST.
-            Times vary because sometimes life changes things.
-            I also try to stream at least once over the weekend.
-        </p>
-        <p>
-            This is an open community, the more the merrier.
-            I just ask that everyone be kind and courteous.
-            <i>"If you can't say 'nuffin nice then don't say 'nuffin at all." - Thumper from Bambi</i>
-        </p>
-        <p>
-            Please feel free to pop over to my <a href="https://discord.gg/aPgnUC8spQ">Discord</a> server
-            where I will hopefully be getting to know everyone better and keeping in contact about possible
-            stream times and content.
-        </p>
-    </div>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <h1>MathNerd92</h1>
 
-    <div class="column">
-        <h3>Content</h3>
-        <p>
-            I stream a variety of content.
-        </p>
-        <h3>I am currently streaming:</h3>
-        <p>
-            <ul>
-                <li>Tales of Arise playthrough - Videos posted to <a href="https://www.youtube.com/playlist?list=PLRivIOgCqXk9zrfuC4fYVFZMk7DQANWk8">YouTube</a></li>
-                <li>New World - Usually with friends - Live only, no playback</li>
-            </ul>
-        </p>
-        <h3>I have previously streamed:</h3>
-        <p>
-            <ul>
-                <li>Final Fantaxy X playthrough - This will comeback someday</li>
-                <li>My Digital Art Journey</li>
-                <li>Building Harry Potter Lego Sets</li>
-                <li>Destiny 2</li>
-                <li>.... and more</li>
-            </ul>
-        </p>
-        <p>
-            Most of the above content can be found on my
-            <a href="https://www.youtube.com/channel/UCro3mofdLJWZrvjBOz_CBZg">YouTube</a>
-            channel, if you would like to check it out.
-        </p>
-    </div>
+        <!-- First Row: Embedded Links -->
+        <div class="row">
+            <!-- Column 1: Twitch -->
+            <div class="column-largeLeft">
+                <div id="twitch-embed"></div>
+                <script src="https://embed.twitch.tv/embed/v1.js"></script>
+                <script type="text/javascript">
+                    new Twitch.Embed("twitch-embed", {
+                        width: 854,
+                        height: 480,
+                        channel: "mathnerd92"
+                    });
+                </script>
+            </div>
 
-    <div class="column">
+            <!-- Column 2: Discord-->
+            <div class="column-smallRight">
 
-    </div>
-</div>
-</body>
+            </div>
+        </div>
+
+        <!-- Second Row: Columns -->
+        <div class="row">
+
+            <!-- Column 1: Welcome to my Channel -->
+            <div class="column">
+                <h3>Welcome to my channel!</h3>
+                <p>
+                    My name is MathNerd92, but you can call me Math or Nerd.
+                </p>
+                <p>
+                    I play games and stream for fun, this is a hobby of mine that I do when I have free time.
+                    Please be patient with me and feel free to drop suggestions.
+                </p>
+                <p>
+                    I am trying to stream daily Monday thru Friday starting around 1900 EST.
+                    Times vary because sometimes life changes things.
+                    I also try to stream at least once over the weekend.
+                </p>
+                <p>
+                    This is an open community, the more the merrier.
+                    I just ask that everyone be kind and courteous.
+                    <i>"If you can't say 'nuffin nice then don't say 'nuffin at all." - Thumper from Bambi</i>
+                </p>
+                <p>
+                    Please feel free to pop over to my <a href="https://discord.gg/aPgnUC8spQ">Discord</a> server
+                    where I will hopefully be getting to know everyone better and keeping in contact about possible
+                    stream times and content.
+                </p>
+            </div>
+
+            <!-- Column 2: Content -->
+            <div class="column">
+                <h3>Content</h3>
+                <p>
+                    I stream a variety of content.
+                </p>
+                <h3>I am currently streaming:</h3>
+                <p>
+                    <ul>
+                        <li>Tales of Arise playthrough - Videos posted to <a href="https://www.youtube.com/playlist?list=PLRivIOgCqXk9zrfuC4fYVFZMk7DQANWk8">YouTube</a></li>
+                        <li>New World - Usually with friends - Live only, no playback</li>
+                    </ul>
+                </p>
+                <h3>I have previously streamed:</h3>
+                <p>
+                    <ul>
+                        <li>Final Fantaxy X playthrough - This will comeback someday</li>
+                        <li>My Digital Art Journey</li>
+                        <li>Building Harry Potter Lego Sets</li>
+                        <li>Destiny 2</li>
+                        <li>.... and more</li>
+                    </ul>
+                </p>
+                <p>
+                    Most of the above content can be found on my
+                    <a href="https://www.youtube.com/channel/UCro3mofdLJWZrvjBOz_CBZg">YouTube</a>
+                    channel, if you would like to check it out.
+                </p>
+            </div>
+
+            <!-- Column 3: Loyalty -->
+            <div class="column">
+
+            </div>
+        </div>
+    </body>
 </html>

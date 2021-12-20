@@ -5,6 +5,20 @@
     margin-left: 20px;
 }
 
+.column-largeLeft{
+    float: left;
+    width: 66.7%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.column-smallRight{
+    float: left;
+    width: 33.3%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
